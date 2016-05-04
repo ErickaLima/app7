@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>aplicacion siete</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/app7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="wow/engine1/style.css" />
+	<script type="text/javascript" src="wow/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/imagen9.jpg','imagenes/imagen17.jpg','imagenes/imagen2.jpg','imagenes/imagen20.jpg','imagenes/imagen27.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>Batalla de 5 de mayo</h1>
+</div>
+        	<!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="wow/data1/images/imagen1.jpg" alt="imagen1" title="imagen1" id="wows1_0"/></li>
+<li><img src="wow/data1/images/imagen2.jpg" alt="imagen2" title="imagen2" id="wows1_1"/></li>
+<li><img src="wow/data1/images/imagen3.jpg" alt="imagen3" title="imagen3" id="wows1_2"/></li>
+<li><img src="wow/data1/images/imagen4.jpg" alt="imagen4" title="imagen4" id="wows1_3"/></li>
+<li><img src="wow/data1/images/imagen5.jpg" alt="imagen5" title="imagen5" id="wows1_4"/></li>
+<li><img src="wow/data1/images/imagen6.jpg" alt="imagen6" title="imagen6" id="wows1_5"/></li>
+<li><img src="wow/data1/images/imagen7.jpg" alt="imagen7" title="imagen7" id="wows1_6"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="imagen1"><img src="wow/data1/tooltips/imagen1.jpg" alt="imagen1"/>1</a>
+<a href="#" title="imagen2"><img src="wow/data1/tooltips/imagen2.jpg" alt="imagen2"/>2</a>
+<a href="#" title="imagen3"><img src="wow/data1/tooltips/imagen3.jpg" alt="imagen3"/>3</a>
+<a href="#" title="imagen4"><img src="wow/data1/tooltips/imagen4.jpg" alt="imagen4"/>4</a>
+<a href="#" title="imagen5"><img src="wow/data1/tooltips/imagen5.jpg" alt="imagen5"/>5</a>
+<a href="#" title="imagen6"><img src="wow/data1/tooltips/imagen6.jpg" alt="imagen6"/>6</a>
+<a href="#" title="imagen7"><img src="wow/data1/tooltips/imagen7.jpg" alt="imagen7"/>7</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Slider Ui</a> by WOWSlider.com v4.8</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="wow/engine1/wowslider.js"></script>
+	<script type="text/javascript" src="wow/engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+        
+<div>
+	<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    	<h2>Conflicto</h2>
+    	<p>Se muestra un poco de la historia del suceso</p>
+    	</a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Personajes</h2>
+        <p>Se muestra personalidades que participaron en este conflicto</p>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>¿Dónde se desarrolló?</h2>
+        <p>Se muestra donde se desarroló este conflicto.</p>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>¿Cómo se celebra?</h2>
+        <p>Muestra el cómo se celebra esta fecha</p>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>4 de mayo</h2>
+        <p>Nos dice qué se festeja el 4 de mayo.</p>
+        </a>
+    </li>
+    </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+	<div>
+    	<img src="res/android/mdpi.png" width="128" height="76">
+    </div>
+    <div>
+       <h4>Aplicacion Siete</h4>
+       <h4>Ericka Lisset Lima Álamo</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Conflicto</h1>
+    </div>
+   <div data-role="content" align="center">
+   <div>
+   <p>Durante 1861, el país estaba en bancarrota debido a medio siglo de conflictos y guerras casi constantes. No podía hacer frente ni a las necesidades más urgentes, por lo que el 17 de julio de 1861, el presidente Benito Juárez decretó prórroga de dos años para pagar deuda externa a países europeos. En octubre de 1861, Francia, Inglaterra y España se suscribieron a la Convención de Londres y se comprometieron a enviar militares a México para reclamar sus derechos como acreedores por una deuda que ascendía alrededor de 80 millones de pesos. Aproximadamente 69 millones eran para los ingleses, 9 millones para los españoles y 2 millones para Francia. Se negaron a negociar, por la vía diplomática, los términos y condiciones en los que se pagaría la deuda posteriormente. Así que Napoleón III, gobernante de Francia, decidió invadir México para establecer una monarquía favorable a Europa, surtirse de materias primas y en un futuro extender su imperialismo a Estados Unidos. Con ese fin, debía disolver el Gobierno mexicano establecido por el Presidente Benito Juárez.
+
+En abril de 1862 los franceses desembarcaron en el puerto de Veracruz, y emprendieron la campaña militar hacia el centro de la República. Después de varios ataques y cientos de muertos el 5 de mayo de 1862 fue la batalla victoriosa que tuvo lugar en los alrededores de una iglesia usada como fortaleza en Acultzingo, en el límite de los estados de Veracruz y Puebla. El héroe de la primera batalla de Puebla fue el general Ignacio Zaragoza al mando de casi 2000 soldados y 2700 campesinos usando machetes, rifles tipo "mausser" y lanzas llamadas "chinacas" de madera con punta de metal. Los franceses usaban pistolas, carabinas tipo winchester con punta de metal, bayonetas, cañones y ametralladoras de 15 kg y de 1.50 mt. longitud. El informe que el general Zaragoza rindió sobre la Batalla de Puebla al Presidente Benito Juárez fue breve y significativo.
+
+"Las armas nacionales se han cubierto de gloria. Las tropas francesas se portaron con valor en el combate y su jefe con soberbia, necedad y torpeza."
+
+La primera victoria de México no duró mucho tiempo. Un año después, treinta y cinco mil tropas francesas lograron derrotar al ejército mexicano, y de esa forma Francia logró tomar control de la Ciudad de México e impusieron al austriaco Maximiliano de Habsburgo y su esposa Carlota como emperador y emperatriz de México. El emperador no sostuvo por mucho su imperio: la victoria de Francia duró sólo 3 años. En 1867, y debido a la conflictiva situación en Europa y a la presión de Estados Unidos, el emperador Napoleón III ordenó retirar el apoyo militar y económico a Maximiliano. Al mismo tiempo los republicanos mexicanos comenzaron a recibir respaldo financiero y diplomático estadounidense al concluir en aquel país la Guerra de Secesión, y el novel imperio comenzó a perder su endeble base social. Así las cosas, durante 1866 los republicanos fueron ganando importantes posiciones hasta dejar reducida el área de influencia imperial a Puebla y Veracruz. El 2 de abril de 1867, tropas encabezadas por el juarista Porfirio Díaz tomaron la ciudad de Puebla con lo que militarmente el imperio fue aniquilado. El emperador Maximiliano, para entonces sitiado en Querétaro, fue hecho prisionero y fusilado en un lugar llamado "El Cerro de las Campanas".</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/imagen9.jpg',1)"><img src="imagenes/imagen8.jpg" width="50%" height="50%" id="Image21"></a>   </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+	<div>
+    	<img src="res/android/mdpi.png" width="128" height="76">
+    </div>
+    <div>
+       <h4>Aplicacion Siete</h4>
+       <h4>Ericka Lisset Lima Álamo</h4>
+    </div>
+</div>
+</div>
+   
+   <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Personajes</h1>
+   </div>
+   <div data-role="content" align="center">
+   <div><p>La batalla del cinco de mayo nos recuerda que alguna vez, hace ya muchos años, fuimos capaces de, aunque sólo fuera por una vez, ganarle al más fuerte. La que sigue es una historia, digna del cine, la historia de unos indígenas que, con coraje y valor lucharon contra el, entonces ejército más poderoso del mundo, y lo venció. De esta historia se desprenden nombres como los de Negrete, Díaz, Zaragoza, y muchos otros, que hoy son ídolos nacionales, que son los sigueintes:</p>
+   <h2>Ignacio Zaragoza</h2>
+   <img src="imagenes/imagen10.jpg" width="239" height="210">
+
+<h2>Miguel Negrete</h2>
+<img src="imagenes/imagen11.jpg" width="%50" height="%50">
+
+<h2>Porfirio Díaz</h2>
+<img src="imagenes/imagen12.jpg" width="%50" height="%50">
+
+<h2>Antonio Alvarez</h2>
+<img src="imagenes/imagen13.jpg" width="%50" height="%50">
+
+<h2>Felipe Berriozabal</h2>
+<img src="imagenes/imagen14.jpg" width="%50" height="%50">
+<h2>J. Lamadrid.</h2>
+<img src="imagenes/imagen15.jpg" width="%50" height="%50">
+   </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+	<div>
+    	<img src="res/android/mdpi.png" width="128" height="76">
+    </div>
+    <div>
+       <h4>Aplicacion Siete</h4>
+       <h4>Ericka Lisset Lima Álamo</h4>
+    </div>
+</div>
+</div>
+   
+   <div data-role="page" id="Pagina3" data-add-back-btn="true" data-back-btn-text="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>¿Dónde se desarrolló?</h1>
+   </div>
+   <p>A las 9:15 de la mañana del 5 de mayo, los franceses aparecieron en el horizonte, avanzando desde la cercana Hacienda de Rementería, cruzando fuego con las guerrillas de caballería que se batían en retirada y que no se replegaron hasta que las líneas francesas estuvieron formadas y listas para avanzar. La batalla se inició en forma a las 11:15 de la mañana, anunciándose con un cañonazo desde el Fuerte de Guadalupe y acompañado por los repiques de las campanas de la ciudad. En ese momento se dio una maniobra sorpresiva: la columna francesa, que venía avanzando en orden de oriente a poniente, se dividió en dos: la primera, compuesta por aproximadamente 4000 hombres y protegida con su artillería, dio un violento viraje hacia la derecha y se dirigió hacia los fuertes; mientras que la segunda columna, compuesta por el resto de la infantería, quedó como reserva.</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/imagen2.jpg',1)"><img src="imagenes/imagen1.jpg" width="50%" height="50%" id="Image29"></a>
+ <p>Los conservadores Almonte y Antonio de Haro y Tamariz, que acompañaban a los franceses, habían sugerido que el ataque se dirigiera a las inmediaciones del ex Convento del Carmen, en el sur de la ciudad, tomando como antecedente lo que sucedió en el sitio durante la Guerra con Estados Unidos. Lorencez, confiado en la superioridad de sus tropas, así como en el auxilio que esperaba del contingente de Márquez, desoyó el consejo y decidió concentrar el ataque en los fuertes, donde los mexicanos contaban con la ventaja. Zaragoza advirtió la maniobra y rápidamente replanteó su plan de batalla, movilizando las tropas hacia las faldas del cerro. El 6o. Batallón de la Guardia Nacional del Estado de Puebla,6 bajo el mando del entonces coronel Juan Nepomuceno Méndez, fue el primer cuerpo del Ejército de Oriente en hacer frente a los franceses, al ubicarse en la línea comprendida entre los fuertes, y rechazar su ataque.7 Zaragoza hizo avanzar a las fuerzas de Berriozábal a paso veloz entre las rocas, situándolas entre la hondonada que separa a Loreto y Guadalupe. Mientras, el general Antonio Álvarez con su brigada protegió el flanco izquierdo de los reductos.</p>
+ <img src="imagenes/imagen18.jpg" width="50%" height="50%">
+
+<p>La línea de batalla mexicana formó un ángulo que se extendió desde Guadalupe hasta un sitio conocido como Plaza de Román, frente a las posiciones enemigas. Zaragoza dispuso que el general Lamadrid defendiera con las tropas potosinas y dos piezas de artillería el camino que conectaba a la ciudad con la garita de Amozoc. La derecha de la línea de batalla mexicana la cerró Porfirio Díaz con la División de Oaxaca, auxiliado por los escuadrones de Lanceros de Toluca y Oaxaca.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/imagen20.jpg',1)"><img src="imagenes/imagen19.jpg" width="50%" height="50%" id="Image31"></a>
+
+<p>Los franceses continuaron su avance, colocando sus baterías frente a Guadalupe, al tiempo que devolvían el fuego mexicano proveniente de esa posición.</p>
+
+<p>En ese momento los zuavos, el regimiento de élite de la infantería francesa, iniciaron su ascenso por el cerro hacia Guadalupe, perdiéndose de la vista de los fusileros mexicanos. De repente, aparecieron disparando frente a la fortificación. Sin embargo, el fuego lanzado por los mexicanos los detuvo en seco. En ese instante, los soldados de Berriozábal los recibieron con sus bayonetas, por lo que tuvieron que retirarse en buen orden hasta ponerse fuera de tiro. Se repusieron rápidamente y se lanzaron de nuevo intentando tomar el fuerte.</p>
+<img src="imagenes/imagen21.jpg" width="50%" height="50%">
+
+<p>Los franceses, apoyados por el 1.er. y 2o. Regimientos de Infantería de Marina, se abalanzaron sobre el resto de la línea mexicana, siendo recibidos con la bayoneta. La columna francesa fue rechazada en Guadalupe y Loreto, siendo igualmente repelidos los ataques de otras columnas francesas desplegadas. En ese momento, el coronel mexicano José Rojo avisó a Antonio Álvarez que era tiempo de que la caballería mexicana entrara en acción para alcanzar una victoria completa. Ordenó a los Carabineros de Pachuca cargar sobre los restos de la columna, disparando sus carabinas y lanzando mandobles de sable sobre los franceses, siendo totalmente rechazados.</p>
+<img src="imagenes/imagen22.jpg" width="50%" height="50%">
+
+<p>A las dos y media de la tarde, cuando se empezaba a perfilar una victoria para los mexicanos, Lorencez se dispuso a lanzar el último asalto, dirigiendo a los Cazadores de Vincennes y el Regimiento de Zuavos hacia Guadalupe, mientras ponía en marcha una segunda columna de ataque compuesta de los restos de los cuerpos de batalla —excepto el 99 de Línea, el cuál quedó de reserva en el campamento francés—, para atacar por la derecha de la línea de batalla mexicana.</p>
+<img src="imagenes/imagen23.jpg" width="50%" height="50%">
+
+<p>Ante esta situación, salieron a su encuentro los Zapadores de San Luis Potosí, al mando del general Lamadrid, librándose un terrible combate a la bayoneta. Una casa situada en la falda del cerro fue el objetivo. Los franceses la tomaron y se guarecieron en ella, siendo desalojados por los zapadores; la recobraron y de nuevo fueron expulsados por las tropas de Lamadrid. Un cabo mexicano de apellido Palomino se mezcló entre los zuavos y se batió con ellos cuerpo a cuerpo, posesionándose de su estandarte como botín de guerra al caer muerto el portador del mismo. Este momento significó un golpe anímico a favor de los defensores.</p>
+<img src="imagenes/imagen24.jpg" width="50%" height="50%">
+
+<p>Ya entrada la tarde cayó un aguacero sobre el campo, lo cual dificultó el avance a las tropas francesas. Zaragoza dispuso que el Batallón Reforma de San Luis Potosí saliera en auxilio de los fuertes. En Loreto había un cañón de 68 libras que causaba enormes estragos en la filas francesas. Los zuavos hicieron una carga de infantería desesperada para apoderarse de esa pieza. El artillero mexicano, sorprendido por la rapidez de los franceses, tenía en sus manos la bala de cañón que no alcanzó a colocar en la boca de fuego. Un zuavo apareció frente a él y tras éste el resto del cuerpo que, una vez apoderados de ese fortín, levantarían la moral francesa y podría perderse la victoria conseguida. El artillero arrojó la bala al soldado francés, que herido mortalmente por el golpe en la cabeza rodó al foso del parapeto. Luego de que este asalto fue rechazado, los franceses retrocedieron siendo perseguidos por el Batallón Reforma.</p>
+<img src="imagenes/imagen25.jpg" width="50%" height="50%">
+
+<p>Mientras, cuando la segunda columna llegó al Fuerte de Guadalupe protegida por una línea de tiradores, Porfirio Díaz acudió en auxilio de los Rifleros de San Luis Potosí, que estaban a punto de ser rodeados. Movió en columna al Batallón Guerrero, a las órdenes del coronel Jiménez, y le ganó el terreno a los franceses. Para apoyar envió al resto de las tropas de Oaxaca, con los coroneles Espinoza y Loaeza a la cabeza, con lo que se logró expulsar al enemigo de las cercanías. El éxito alentó a Díaz, que destacó al Batallón Morelos con dos piezas de artillería a la izquierda, mientras por la derecha los Rifleros de San Luis Potosí se reponían de la pelea, antecedidos por una carga de los Lanceros de Oaxaca, trabándose un combate cuerpo a cuerpo que hizo retroceder a los atacantes.</p>
+
+<p>En aquel momento, luego de ser repelidos por última vez, las efectivos franceses empezaron a huir, completamente dispersados. Se replegaron a la hacienda Los Álamos, para finalmente retirarse hacia Amozoc.</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/imagen17.jpg',1)"><img src="imagenes/imagen16.png" width="50%" height="50%" id="Image28"></a>
+   <div data-role="content" align="center">
+    <div>
+        	<div data-role="collapsible" data-content-theme="false">
+          <h1>Actualidad</h1>
+           <div>
+           <p>¿cómo se ve en la actualidad este sitio?</p><a href="https://www.google.com.mx/maps/@19.0580029,-98.1869417,3a,75y,72.96h,68.2t/data=!3m6!1e1!3m4!1spkAwAJ1wJQDEnHwe0Y9Ftg!2e0!7i13312!8i6656!6m1!1e1"> Da click aquí para descubrir como es la actualidad.</a>
+          </div> 
+        </div>
+        </div>
+    </div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+	<div>
+    	<img src="res/android/mdpi.png" width="128" height="76">
+    </div>
+    <div>
+       <h4>Aplicacion Siete</h4>
+       <h4>Ericka Lisset Lima Álamo</h4>
+    </div>
+</div>
+</div>
+   
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>¿Cómo se celebra?</h1>
+   </div>
+   
+   <div data-role="content" align="center">
+   <div>
+   <h2>Así se celebra en Puebla:</h2>
+   <iframe width="50%" height="50%" src="https://www.youtube.com/embed/b2XjE4cIXek" frameborder="0" allowfullscreen></iframe>
+   
+   </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+	<div>
+    	<img src="res/android/mdpi.png" width="128" height="76">
+    </div>
+    <div>
+       <h4>Aplicacion Siete</h4>
+       <h4>Ericka Lisset Lima Álamo</h4>
+    </div>
+</div>
+</div>
+   
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>4 de mayo</h1>
+   </div>
+   <div data-role="content" align="center">
+   <div>
+   <p>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.
+
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','imagenes/imagen27.jpg',1)"><img src="imagenes/imagen26.jpg" width="300" height="162" id="Image37"></a>   </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+	<div>
+    	<img src="res/android/mdpi.png" width="128" height="76">
+    </div>
+    <div>
+       <h4>Aplicacion Siete</h4>
+       <h4>Ericka Lisset Lima Álamo</h4>
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
